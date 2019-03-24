@@ -1,18 +1,25 @@
-##Typescript
+
+1)Typescript
+
 		○ 教程
 			§ https://ts.xcatliu.com/introduction/get-typescript.html
 		○ 语法
 			§ Value:int
 				□ 变量类型（int,string,double）
-##Setup
+2)Setup
+
 		1. Npm install -g @angular/cli
 		2. Ng new (proiect name) 
-##cli命令行
+    
+3)cli命令行
+
 		○ Run project (开始运行)
 			§ Ng serve --open
 		○ Create Component（创建Component）
 			§ Ng generate component (file name)
-    ##Component
+      
+ 4)Component
+ 
 		○ Selector
 			§ 组件的选择器（CSS 元素选择器）
 		○ templateUrl
@@ -23,15 +30,18 @@
 			§ 记得放进@NgMudules里面的import
 			§ 组件必须声明在NgModules中
 			§ @component里面的file 不会影响其他component的变动
-			
-##概念
+      
+5)概念
+
 		○ component
 			§ html+css+class(ts+HTML+CSS)
 		○ Module
 			§ One or more Component
 		○ Angular app
 			§ One or more Module
-##语法
+      
+6)语法
+
 		○ 在ts file
 			§ {{变量}}
 				□ 在ts中的变量（value）绑定去HTML
